@@ -1,1 +1,78 @@
-/* Write your CSS here! */
+/* Container holding the image and the text */
+
+body {
+    background-color: aqua; 
+}
+
+
+img {
+    border-radius: 50%; /* makes image circular */
+    height: 148px;
+    width: 148px;  
+    display: block; 
+    margin-top: 50px; 
+    margin-left: auto;
+    margin-right: auto; 
+    /* opacity: 0.2; (0-1: more transparent lower the value) */
+}
+
+
+.home {
+    display: block; 
+    text-align: center;
+    color: black;
+    margin-top: 80px; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+    /* font-weight: bold;  */
+
+}
+
+
+.about {
+    display: block; 
+    text-align: center;
+    color: black;
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+    
+}
+
+.portfolio {
+    display: block; 
+    text-align: center;
+    color: black;
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+  
+}
+
+
+.contact {
+    display: block; 
+    text-align: center;
+    color: black;
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%; 
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 15px; 
+
+}
